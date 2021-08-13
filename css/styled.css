@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+:root {
+  --primary-color: #202329;
+  --secundary-color: #24282f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+header {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--secundary-color);
+}
+
+header h2 {
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.search {
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  border-radius: 50px;
+  font-family: inherit;
+  font-size: 1rem;
+  margin-top: 5%;
+  padding: 0.5rem 1rem;
+  color: #fff;
+}
+
+.search::placeholder {
+  color: white;
+}
+
+.search:focus {
+  outline: none;
+  background-color: var(--primary-color);
+}
+
+.character {
+  width: 300px;
+  margin: 1rem;
+  background-color: white;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.card-info {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.title:hover {
+  color: #f1c40f;
+}
+
+.status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status-icon {
+  width: 0.5rem;
+  margin-right: 0.375rem;
+  background: rgb(85, 204, 68) none repeat scroll 0% 0%;
+  border-radius: 50%;
+  height: 0.5rem;
+}
+.origen {
+  text-align: center;
+}
